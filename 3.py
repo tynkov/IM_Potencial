@@ -2,6 +2,7 @@ f = open('songs.csv', encoding='UTF-8')
 lst = []
 for s in f:
     lst.append(s.split(';'))
+f.close()
 """Чтение файла БД"""
 name = input('Здравствуйте, пожалуйста введите имя артиста: ')
 """Ввод пользовательской команды"""
